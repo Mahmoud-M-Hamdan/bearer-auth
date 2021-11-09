@@ -100,7 +100,7 @@ describe('Auth Router', () => {
         done();
       });
 
-      it('bearer fails with an invalid token', async (done) => {
+      it('bearer fails with an invalid token.', async (done) => {
 
         // First, use basic to login to get a token
         const bearerResponse = await mockRequest
